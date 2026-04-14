@@ -1,0 +1,32 @@
+{
+  "name": "@flightlesslabs/time-utils",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "A lightweight TypeScript library providing country and currency mappings, including ISO codes and symbols.",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flightlesslabs/time-utils.git"
+  },
+  "fmt": {
+    "useTabs": false,
+    "semiColons": true,
+    "singleQuote": true,
+    "include": ["src/", "scripts/"]
+  },
+  "exports": "./src/mod.ts",
+  "tasks": {
+    "docs": "deno doc --html --name='@flightlesslabs/time-utils' --output=docs src/mod.ts",
+    "preview": "deno run --allow-net --allow-read jsr:@std/http/file-server ./docs",
+    "build:npm": "deno run -A scripts/build_npm.ts",
+    "publish:npm": "deno task build:npm && cd dist && npm publish && cd ..",
+    "publish": "deno task publish:npm"
+  },
+  "imports": {
+    "@deno/dnt": "jsr:@deno/dnt@^0.42.3",
+    "@std/assert": "jsr:@std/assert@1",
+    "dayjs": "npm:dayjs@^1.11.20"
+  }
+}

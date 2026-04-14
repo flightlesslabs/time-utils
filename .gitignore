@@ -1,0 +1,52 @@
+# =====================
+# Deno cache
+# =====================
+.deno/
+.cache/
+
+# =====================
+# Dependencies (if using npm: imports)
+# =====================
+node_modules/
+
+# =====================
+# Build / output
+# =====================
+dist/
+build/
+out/
+docs/
+
+# =====================
+# Logs
+# =====================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =====================
+# Environment files
+# =====================
+.env
+.env.*
+!.env.example
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Coverage (if tests used)
+# =====================
+coverage/
+cov/
+
+# =====================
+# Temporary files
+# =====================
+tmp/
+temp/
+*.tmp
