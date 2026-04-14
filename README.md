@@ -1,6 +1,6 @@
 # @flightlesslabs/time-utils
 
-Date and time utilities at your disposable
+Date and time utilities at your disposal
 
 ## 🔗 Links
 

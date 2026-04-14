@@ -2,7 +2,7 @@
   "name": "@flightlesslabs/time-utils",
   "version": "0.2.2",
   "license": "MIT",
-  "description": "Date and time utilities at your disposable",
+  "description": "Date and time utilities at your disposal",
   "publishConfig": {
     "access": "public"
   },
