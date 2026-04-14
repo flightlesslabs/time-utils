@@ -1,6 +1,12 @@
 import { createDateFactory } from '../createDateFactory/createDateFactory.ts';
 import defaultDayjs from '../createDateFactory/dayjs.ts';
 
-const { createDate } = createDateFactory(defaultDayjs);
+const dateFactory = createDateFactory(defaultDayjs);
 
-export const createDateExport = createDate;
+/**
+ * Default preconfigured createDate function.
+ *
+ * This is a ready-to-use version of `createDate` that uses a shared,
+ * preconfigured Dayjs instance. No manual configuration is required.
+ */
+export const createDate = dateFactory.createDate;
