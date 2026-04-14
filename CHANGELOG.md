@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.2.2
+- Tests added
+
 ## 0.2.1
 - Fix JSR errors
 
