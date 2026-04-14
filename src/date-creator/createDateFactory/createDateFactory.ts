@@ -12,7 +12,7 @@ type Dayjs = typeof defaultDayjs;
  *
  * Contains the unified date creation function and the underlying Dayjs instance.
  */
-type CreateDateFactoryReturn = {
+export type CreateDateFactoryReturn = {
   /**
    * Unified date creation function.
    *
