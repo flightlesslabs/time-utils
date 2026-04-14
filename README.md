@@ -1,6 +1,6 @@
 # @flightlesslabs/time-utils
 
-A lightweight TypeScript library providing country and currency mappings, including ISO codes and symbols.
+Date and time utilities at your disposable
 
 ## 🔗 Links
 

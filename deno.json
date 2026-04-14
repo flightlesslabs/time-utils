@@ -2,7 +2,7 @@
   "name": "@flightlesslabs/time-utils",
   "version": "0.1.0",
   "license": "MIT",
-  "description": "A lightweight TypeScript library providing country and currency mappings, including ISO codes and symbols.",
+  "description": "Date and time utilities at your disposable",
   "publishConfig": {
     "access": "public"
   },
